@@ -55,5 +55,6 @@
                     Style="{StaticResource mainBtn}"
                     Content="Сохранить"/>
         </StackPanel>
+        <Frame x:Name="Order" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
     </Grid>
 </Page>

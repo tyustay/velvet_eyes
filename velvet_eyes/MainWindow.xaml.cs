@@ -28,17 +28,13 @@ namespace velvet_eyes
 
             FrameObj.frameMain = FrmMain;
 
-            FrmMain.Navigate(new Page());
+            FrmMain.Navigate(new Page2());
 
         }
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
             FrameObj.frameMain.GoBack();
         }
-        private void Btn_Click(object sender, RoutedEventArgs e)
-        {
-            _NavigationFrame.Navigate(new Page2());
-            this._NavigationFrame.Navigate(new Uri("Pages/Page2.xaml", UriKind.Relative));
-        }
+        
     }
 }

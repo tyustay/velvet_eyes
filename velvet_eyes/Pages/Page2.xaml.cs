@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using velvet_eyes.AppData;
 
 namespace velvet_eyes.Pages
 {
@@ -23,6 +24,7 @@ namespace velvet_eyes.Pages
         public Page2()
         {
             InitializeComponent();
+          
         }
        
 
